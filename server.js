@@ -1,6 +1,6 @@
 // NÃO ESTOU CONSEGUINDO STARTAR
 
-const app = require('./app');
+const app = require('./src/app');
 const PORTA = 8000
 
 app.listen(PORTA,() =>{
