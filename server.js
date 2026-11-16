@@ -3,7 +3,8 @@
 
 const app = require('./src/app');
 
-const app = require('./app');
+const router = require('./src/Routers/router');
+app.use(router)
 
 const PORTA = 8000
 
